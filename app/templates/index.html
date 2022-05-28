@@ -1,0 +1,8 @@
+<form action="/" method="POST" autocomplete="off">
+    <td><input type="text" name="volume size" placeholder="volume size" size="20" /></td>
+    <td><button type="submit">Submit</button></td>
+    <button type="Reset" value="Reset">Reset</button>
+
+    {% block content %}
+    iops are: {{ size }}
+    {% endblock %}
